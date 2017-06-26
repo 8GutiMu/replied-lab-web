@@ -1,0 +1,18 @@
+$background-orange: #ebb85d;
+$background-black: black;
+$font-color-black: black;
+$font-color-white: white;
+$nav-width: 100%;
+$font-family: helvetica;
+
+*{
+    margin: 0;
+}
+
+nav{
+    width: $nav-width;
+    background: $background-orange;
+    color: $font-color-white;
+    padding: 2%;
+    font-family: $font-family;
+}
