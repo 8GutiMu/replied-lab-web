@@ -1,32 +1,48 @@
-$background-orange: #ebb85d;
-$background-black: #3e3f40;
-$font-color-black: black;
-$font-color-white: white;
-$nav-width: 100%;
-$font-family: helvetica;
+@import 'variables';
 
-*{
+* {
     margin: 0;
+    font-family: $font-family;
 }
 
-nav{
-    width: $nav-width;
+nav {
+    width: $full-width;
     background: $background-orange;
     color: $font-color-white;
     padding: 2%;
     font-family: $font-family;
 }
 
-#setions{
-    ul{
+#setions {
+    ul {
         list-style: none;
-        li{
+        li {
             background: $background-black;
             color: $font-color-white;
             padding: 1%;
-            margin: 1%;
+            margin-top: 1%;
             font-family: $font-family;
+            &:hover {
+                background: $background-orange;
+                color: $font-color-black;
+            }
         }
-        
     }
+}
+
+.aside {
+    background: $background-black;
+    text-align: center;
+    color: $font-color-white;
+    padding: 2%;
+}
+
+
+footer{
+    width: $full-width;
+    background: $background-black;
+    margin-top: 2%;
+    padding: 2%;
+    color: $font-color-white;
+    text-align: center;
 }
