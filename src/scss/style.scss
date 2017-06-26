@@ -1,5 +1,4 @@
 @import 'variables';
-
 * {
     margin: 0;
     font-family: $font-family;
@@ -13,7 +12,7 @@ nav {
     font-family: $font-family;
 }
 
-#setions {
+#sections {
     ul {
         list-style: none;
         li {
@@ -30,6 +29,7 @@ nav {
     }
 }
 
+
 .aside {
     background: $background-black;
     text-align: center;
@@ -37,8 +37,20 @@ nav {
     padding: 2%;
 }
 
+#section2,
+#sections {
+    @media screen and (max-width: $break-small) {
+        width: $full-width;
+    }
+    @media screen and (min-width: $break-medium) {
+        width: $mediun-width;
+    }
+    @media screen and (min-width: $break-large) {
+        width: $small-width;
+    }
+}
 
-footer{
+footer {
     width: $full-width;
     background: $background-black;
     margin-top: 2%;

@@ -9,15 +9,15 @@ nav {
   padding: 2%;
   font-family: helvetica; }
 
-#setions ul {
+#sections ul {
   list-style: none; }
-  #setions ul li {
+  #sections ul li {
     background: #3e3f40;
     color: white;
     padding: 1%;
     margin-top: 1%;
     font-family: helvetica; }
-    #setions ul li:hover {
+    #sections ul li:hover {
       background: #ebb85d;
       color: black; }
 
@@ -26,6 +26,19 @@ nav {
   text-align: center;
   color: white;
   padding: 2%; }
+
+@media screen and (max-width: 320px) {
+  #section2,
+  #sections {
+    width: 100%; } }
+@media screen and (min-width: 720px) {
+  #section2,
+  #sections {
+    width: 50%; } }
+@media screen and (min-width: 1200px) {
+  #section2,
+  #sections {
+    width: 30%; } }
 
 footer {
   width: 100%;
