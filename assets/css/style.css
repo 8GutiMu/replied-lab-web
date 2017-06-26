@@ -8,4 +8,13 @@ nav {
   padding: 2%;
   font-family: helvetica; }
 
+#setions ul {
+  list-style: none; }
+  #setions ul li {
+    background: #3e3f40;
+    color: white;
+    padding: 1%;
+    margin: 1%;
+    font-family: helvetica; }
+
 /*# sourceMappingURL=style.css.map */

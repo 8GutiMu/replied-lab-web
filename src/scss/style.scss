@@ -1,5 +1,5 @@
 $background-orange: #ebb85d;
-$background-black: black;
+$background-black: #3e3f40;
 $font-color-black: black;
 $font-color-white: white;
 $nav-width: 100%;
@@ -15,4 +15,18 @@ nav{
     color: $font-color-white;
     padding: 2%;
     font-family: $font-family;
+}
+
+#setions{
+    ul{
+        list-style: none;
+        li{
+            background: $background-black;
+            color: $font-color-white;
+            padding: 1%;
+            margin: 1%;
+            font-family: $font-family;
+        }
+        
+    }
 }
