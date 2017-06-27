@@ -28,9 +28,9 @@ var renderAlumnas = function(alumna){
     
     nombreCompleto += $nombre;
     nombreCompleto += " ";
-    nombreCompleto += $last2Name;
-    nombreCompleto += " ";
     nombreCompleto += $lastName;
+    nombreCompleto += " ";
+    nombreCompleto += $last2Name;
     
     var $containerAsist = $("#asist");
     var $li = $("<li/>");
@@ -44,6 +44,7 @@ var renderAlumnas = function(alumna){
     
     
 }
+
 $(document).ready(cargarPagina);
 
 
