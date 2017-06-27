@@ -24,11 +24,23 @@ var renderAlumnas = function(alumna){
     var $nombre = alumna.name;
     var $lastName = alumna.pLastName;
     var $last2Name = alumna.mLastName;
+    var nombreCompleto  ="";
+    
+    nombreCompleto += $nombre;
+    nombreCompleto += " ";
+    nombreCompleto += $last2Name;
+    nombreCompleto += " ";
+    nombreCompleto += $lastName;
     
     var $containerAsist = $("#asist");
-    var $li = $("<li type='checkbox'> </li>");
-    $li.text($nombre);
+    var $li = $("<li/>");
+    var $input =$("<input type='checkbox'> ");
+    
+    $li.text(nombreCompleto);
+    $li.prepend($input);
+    
     $containerAsist.append($li)
+    
     
     
 }

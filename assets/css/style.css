@@ -9,6 +9,9 @@ nav {
   padding: 2%;
   font-family: helvetica; }
 
+#theSections {
+  display: inline-block; }
+
 #sections ul {
   list-style: none; }
   #sections ul li {
@@ -46,6 +49,7 @@ footer {
   margin-top: 2%;
   padding: 2%;
   color: white;
-  text-align: center; }
+  text-align: center;
+  clear: both; }
 
 /*# sourceMappingURL=style.css.map */

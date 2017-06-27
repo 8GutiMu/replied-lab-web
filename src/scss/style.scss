@@ -12,6 +12,11 @@ nav {
     font-family: $font-family;
 }
 
+#theSections{
+   display: inline-block;
+   
+    
+}
 #sections {
     ul {
         list-style: none;
@@ -57,4 +62,5 @@ footer {
     padding: 2%;
     color: $font-color-white;
     text-align: center;
+    clear: both;
 }
